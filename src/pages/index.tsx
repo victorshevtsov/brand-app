@@ -85,7 +85,9 @@ const Home: NextPage = () => {
             </Box> */}
             <Box mb={0} p={4} w='100%' borderWidth="1px" borderRadius="lg">
               <Heading my={4} fontSize='xl'>To Do Tasks</Heading>
-              <ToDoList contractAddress='0xabBA944b417D1E1310a673eC410d03B02B7557F6' />
+              <ToDoList
+                contractAddress='0xabBA944b417D1E1310a673eC410d03B02B7557F6'
+                currentAccount={currentAccount} />
             </Box>
 
           </>
