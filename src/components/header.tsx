@@ -1,7 +1,7 @@
+import { Flex, Heading, LinkBox, LinkOverlay, Spacer, useColorModeValue } from '@chakra-ui/react'
 import NextLink from "next/link"
-import { Flex, Button, useColorModeValue, Spacer, Heading, LinkBox, LinkOverlay } from '@chakra-ui/react'
 
-const siteTitle="Brand App"
+const siteTitle = "Brand App"
 export default function Header() {
 
   return (
@@ -12,9 +12,8 @@ export default function Header() {
             <Heading size="md">{siteTitle}</Heading>
           </LinkOverlay>
         </NextLink>
-      </LinkBox>      
+      </LinkBox>
       <Spacer />
-      <Button >Button for Account </Button>
     </Flex>
   )
 }
